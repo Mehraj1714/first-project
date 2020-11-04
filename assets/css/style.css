@@ -258,26 +258,15 @@ button{
 	border-radius: 50%;
 	border: 5px solid var(--secondaryColor);
 }
-@keyframes mymove {
-  0%   {transform: rotate(90deg);}
-  25%  {transform: rotate(180deg);}
-  75%  {transform: rotate(270deg);}
-  100% {transform: rotate(360deg);}
-}
-@keyframes mymove1{
-	0%{margin-left: 20px;}
-	50%{margin-left: 300px;}
-	100%{margin-left: 20px;}
-}
+
 footer{
 	background-color: #F1DF8D;
 	padding: 40px;
 }
 
-.fa{
+.fab{
 	padding: 20px;
    font-size: 30px;
-   width: 50px;
    text-align: center;
    text-decoration: none;
    margin: 5px 2px;
@@ -285,7 +274,7 @@ footer{
    background-color: var(--secondaryColor);
 
 }
-.fa:hover{
+.fab:hover{
 	color: var(--secondaryColor);
 	background-color: white;
 }
